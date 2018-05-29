@@ -1,7 +1,5 @@
-Jenkinsfile (Declarative Pipeline)
-
 pipeline {
-    agent { docker { image 'python:3.5.1' } }
+    agent { docker { image 'python:2.6.7' } }
     stages {
         stage('build') {
             steps {
